@@ -2,7 +2,7 @@
 Distributed Services for Mozilla
 
 The dsm library can be used in Firefox Jetpack extensions to perform peer-to-peer asynchronous communications.
-It's currently in the first implementation phases so it's mostly non working.
+It's currently in the first implementation phases so it's mostly non working. Have a look at the tests directory to understand what's the current state of affairs.
 
 ## Example usage (when it will be ready)
 The following code creates the endpoint "helloWorld" and establishes a connection to a peer with IP peerIP and port peerPort and sends the message "Hello". The peer, upon receiving the message replies with "World".
